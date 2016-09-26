@@ -25,7 +25,7 @@ class IndexHandler(BaseHandler):
     def get(self, *args, **kwargs):
         self.render("index.html")
 
-class WelcomeHandler2(BaseHandler):
+class WelcomeHandler(BaseHandler):
     def get(self, *args, **kwargs):
         self.write('''
             <html>
@@ -37,4 +37,7 @@ class WelcomeHandler2(BaseHandler):
 
 class NewWelcomeHandler(BaseHandler):
     def get(self, *args, **kwargs):
+        pass
+class NewWelcomeHandler21(BaseHandler):
+    def post(self, *args, **kwargs):
         pass
