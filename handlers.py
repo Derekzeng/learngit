@@ -34,10 +34,6 @@ class WelcomeHandler(BaseHandler):
             </html>
         ''')
 
-
-class NewWelcomeHandler(BaseHandler):
-    def get(self, *args, **kwargs):
-        pass
 class NewWelcomeHandler21(BaseHandler):
     def post(self, *args, **kwargs):
         pass
