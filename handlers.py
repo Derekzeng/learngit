@@ -9,7 +9,7 @@ class BaseHandler(tornado.web.RequestHandler):
         return self.get_secure_cookie("user")
 
 
-class LoginHandler2(BaseHandler):
+class LoginHandler(BaseHandler):
     def post(self, *args, **kwargs):
         username = self.get_argument("username")
         if username:
