@@ -35,6 +35,6 @@ class WelcomeHandler(BaseHandler):
         ''')
 
 
-class NewWelcomeHandler2(BaseHandler):
+class NewWelcomeHandler21(BaseHandler):
     def post(self, *args, **kwargs):
         pass
