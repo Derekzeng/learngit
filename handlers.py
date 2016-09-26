@@ -33,3 +33,8 @@ class WelcomeHandler(BaseHandler):
               <a href='/login'><strong>Login to system</strong></a>
             </html>
         ''')
+
+
+class NewWelcomeHandler2(BaseHandler):
+    def post(self, *args, **kwargs):
+        pass
