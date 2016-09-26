@@ -6,14 +6,14 @@ import tornado.web
 import tornado.ioloop
 import tornado.httpserver
 import os
-from handlers import WelcomeHandler,LoginHandler,IndexHandler
+from handlers import WelcomeHandler,LoginHandler2,IndexHandler
 
 
 
 
 urls =[
     (r'/',WelcomeHandler,None,'derk_welcome'),
-    (r'/login',LoginHandler,None,'derk_login'),
+    (r'/login',LoginHandler2,None,'derk_login'),
     (r'/index',IndexHandler,None,'derk_index')
        ]
 
