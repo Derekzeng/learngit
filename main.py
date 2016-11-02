@@ -16,4 +16,4 @@ setting = dict(debug=True,template_path=TEMPLATE_DIR)
 
 application = tornado.web.Application
 
-# kiss something
+# kiss something dev1
